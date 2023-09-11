@@ -2,12 +2,11 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Mailbtn
 Bundle-SymbolicName: au.blindmot.mailbtn;singleton:=true
-Bundle-Version: 1.0.1.qualifier
+Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Service-Component: au.blindmot.mailbtn.action.mail.xml
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=11))"
 Import-Package: com.ibm.icu.util,
- com.itextpdf.text,
  javax.activation,
  javax.mail.internet;version="1.5.0",
  javax.mail.util;version="1.5.0",
