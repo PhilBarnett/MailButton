@@ -5,4 +5,4 @@ How do I get set up?
 Install .jar into your OSGi web console
 
 Who do I talk to?
-phil@blindmotion.com.au
+christophe.fichter@capbarthodia.com
