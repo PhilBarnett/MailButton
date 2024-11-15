@@ -10,7 +10,6 @@ import org.adempiere.webui.adwindow.AbstractADWindowContent;
 import org.compiere.model.GridTab;
 import org.compiere.util.CLogger;
 
-
 /**
  * @author phil
  *
@@ -40,6 +39,7 @@ public class OnMailButtonAction implements IAction {
 		MailbtnActionWindow mailbtnActionWindow  = new MailbtnActionWindow (panel, window);
 		
 		mailbtnActionWindow.show(); 
+		
 	}
 }
 		

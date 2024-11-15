@@ -6,8 +6,9 @@ Bundle-Version: 1.0.1.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Service-Component: au.blindmot.mailbtn.action.mail.xml
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=11))"
-Import-Package: com.ibm.icu.util,
- com.itextpdf.text,
+Import-Package: com.google.api.client.auth.oauth2,
+ com.ibm.icu.util,
+ com.lowagie.text.pdf,
  javax.activation,
  javax.mail.internet;version="1.5.0",
  javax.mail.util;version="1.5.0",
@@ -27,4 +28,4 @@ Export-Package: action.images,
  au.blindmot.mailbtn
 Bundle-ActivationPolicy: lazy
 Automatic-Module-Name: au.blindmot.mailbtn
-Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator

@@ -381,7 +381,6 @@ public class MailbtnActionWindow implements EventListener<Event>
 	private void email() throws Exception
 	{
 		mailTemplateSelect.onClose();	
-		//TODO
 		cmd_sendMail();
 		Tabpanel tabPanel = (Tabpanel) panel.getComponent().getParent();
 		tabPanel.getLinkedTab().setSelected(true);
@@ -483,7 +482,7 @@ public class MailbtnActionWindow implements EventListener<Event>
 			//dataSource.setName(fileName);
 		
 			dialog.setAttachment(dataSource);
-	
+			is.close();
 			} 
 		}//end if
 		try
@@ -523,9 +522,6 @@ public class MailbtnActionWindow implements EventListener<Event>
 			Timestamp  updated = null;
 			TimeStamp lastMUserupdate = null;
 			TimeStamp  sentTimestamp = timestamp;
-			
-			
-			
 		
 			 PreparedStatement pstmt = null;
 			 ResultSet rs = null;
