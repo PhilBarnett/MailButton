@@ -415,7 +415,8 @@ public class MailbtnActionWindow implements EventListener<Event>
 		 * MMailText (Properties ctx, ResultSet rs, String trxName)
 		 */
 		
-		if(m_MailText == null) m_MailText = new MMailText (Env.getCtx(), null, null);
+		String UU="";
+		if(m_MailText == null) m_MailText = new MMailText (Env.getCtx(), UU ,null);
 		
 		if(!isBP){
 			

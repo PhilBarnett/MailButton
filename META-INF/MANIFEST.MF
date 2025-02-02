@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Mailbtn
 Bundle-SymbolicName: au.blindmot.mailbtn;singleton:=true
 Bundle-Version: 1.0.1.qualifier
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Service-Component: au.blindmot.mailbtn.action.mail.xml
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=11))"
 Import-Package: com.google.api.client.auth.oauth2,
